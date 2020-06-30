@@ -32,7 +32,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #fff;
-  font-size: 12px;
+  font-size: 1.5rem !important;
   position: relative;
   overflow-x: hidden;
 }
@@ -427,9 +427,6 @@ p {
 
 /************* SECTION OUR SERVICE ******************/
 section {
-  width: 100%;
-  float: left;
-  height: auto;
   position: relative;
 }
 
@@ -474,11 +471,6 @@ section {
   border-radius: 5px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-}
-
-.section-spacing .section-title h2 span {
-  position: relative;
-  z-index: 1;
 }
 
 .section-spacing .section-title p {
@@ -551,11 +543,11 @@ section {
 }
 
 /************* SECTION FEATURED TOURS ******************/
-.featured__tours {
+.section__background {
   background-color: #f8faff;
 }
 
-.featured__tours .tour__item {
+.section__background .tour__item {
   margin: 15px 0 0 0;
   width: 100%;
   float: left;
@@ -570,32 +562,32 @@ section {
           box-shadow: 1px 7px 7px 1px #cecece;
 }
 
-.featured__tours .tour__item .media {
+.section__background .tour__item .media {
   width: auto;
 }
 
-.featured__tours .tour__item .thumb {
+.section__background .tour__item .thumb {
   width: 100%;
   float: left;
   height: auto;
   overflow: hidden;
 }
 
-.featured__tours .tour__item .thumb img {
+.section__background .tour__item .thumb img {
   width: 100%;
   height: auto;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.featured__tours .tour__description {
+.section__background .tour__description {
   width: 100%;
   float: left;
   height: auto;
   padding: 27px 20px 27px;
 }
 
-.featured__tours .tour__description p {
+.section__background .tour__description p {
   margin: 0 0 20px;
 }
 

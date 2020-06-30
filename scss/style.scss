@@ -45,7 +45,7 @@ $navigationMobileBackground: #000;
 body {
   font-family: "Poppins", sans-serif;
   background: $whiteBackground;
-  font-size: 12px;
+  font-size: 1.5rem !important;
   position: relative;
   overflow-x: hidden;
 }
@@ -377,9 +377,6 @@ p {
 
 /************* SECTION OUR SERVICE ******************/
 section {
-  width: 100%;
-  float: left;
-  height: auto;
   position: relative;
 }
 .section-spacing {
@@ -414,10 +411,6 @@ section {
         bottom: -15px;
         border-radius: 5px;
         transform: rotate(45deg);
-      }
-      span {
-        position: relative;
-        z-index: 1;
       }
     }
     p {
@@ -480,7 +473,7 @@ section {
   color: $whiteTextColor;
 }
 /************* SECTION FEATURED TOURS ******************/
-.featured__tours {
+.section__background {
   background-color: #f8faff;
   .tour__item {
     margin: 15px 0 0 0;

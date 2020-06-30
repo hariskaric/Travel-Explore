@@ -323,7 +323,7 @@ p {
 #banner .carousel-item {
   height: 700px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -348,6 +348,18 @@ p {
   float: left;
   height: auto;
   max-width: 540px;
+}
+
+#banner .carousel-item .carousel-text .hero-text h1 {
+  color: #fff;
+}
+
+#banner .carousel-item .carousel-text .hero-text h6 {
+  color: #fff;
+}
+
+#banner .carousel-item .carousel-text .hero-text p {
+  color: #fff;
 }
 
 #banner .carousel-item .carousel-text a {

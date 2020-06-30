@@ -286,7 +286,7 @@ p {
   .carousel-item {
     height: 700px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     .carousel-text {
       width: 100%;
@@ -304,6 +304,15 @@ p {
         float: left;
         height: auto;
         max-width: 540px;
+        h1 {
+          color: #fff;
+        }
+        h6 {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
       }
       a {
         animation-delay: 1.2s;

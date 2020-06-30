@@ -1,6 +1,5 @@
 /*
-! Author       	: Haris Karić
-! Template Name	: HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY
+! Author       	: HtHc
 ! Version      	: 1.0
 */
 
@@ -155,15 +154,15 @@ p {
 }
 #scroll-down-arrow {
   position: absolute;
-  bottom: 24px;
+  bottom: 83px;
   width: 46px;
   height: 46px;
   margin: 0 auto;
   left: 0;
   right: 0;
-  border: 2px solid $greenBackground;
+  border: 2px solid $whiteBackground;
   border-radius: 100%;
-  animation: bounce 2s infinite running;
+  animation: bounce 3.5s infinite running;
 }
 #scroll-down-arrow:hover {
   animation-play-state: paused;
@@ -177,16 +176,14 @@ p {
   right: 0;
   top: 10px;
   margin: 0 auto;
-  border-left: 2px solid $greenBackground;
-  border-bottom: 2px solid $greenBackground;
+  border-left: 2px solid $whiteBackground;
+  border-bottom: 2px solid $whiteBackground;
   transform: rotate(-45deg);
 }
 /***************************************  NAVIGATION ***************************************/
 .navbar {
   z-index: 1;
-  padding: 15px 0;
   background-color: $navigationBackground;
-  box-shadow: $navigationBoxShadow;
   .navbar-logo {
     padding: 4px 0;
     display: inline-block;
@@ -278,16 +275,22 @@ p {
   margin-bottom: 0.5rem;
   width: 17px;
 }
-/************* SECTION CAROUSEL / SLIDER ******************/
+/************* SECTION CAROUSEL  ******************/
 #banner {
-  width: 100%;
-  float: left;
-  height: auto;
   .carousel-item {
-    height: 700px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: #4133329c;
+    }
     .carousel-text {
       width: 100%;
       position: absolute;

@@ -1,7 +1,5 @@
-@charset "UTF-8";
 /*
-! Author       	: Haris Karić
-! Template Name	: HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY
+! Author       	: HtHc
 ! Version      	: 1.0
 */
 /*************** Tabela Stilizacije ***************
@@ -159,16 +157,16 @@ p {
 
 #scroll-down-arrow {
   position: absolute;
-  bottom: 24px;
+  bottom: 83px;
   width: 46px;
   height: 46px;
   margin: 0 auto;
   left: 0;
   right: 0;
-  border: 2px solid #6abe45;
+  border: 2px solid #fff;
   border-radius: 100%;
-  -webkit-animation: bounce 2s infinite running;
-          animation: bounce 2s infinite running;
+  -webkit-animation: bounce 3.5s infinite running;
+          animation: bounce 3.5s infinite running;
 }
 
 #scroll-down-arrow:hover {
@@ -185,8 +183,8 @@ p {
   right: 0;
   top: 10px;
   margin: 0 auto;
-  border-left: 2px solid #6abe45;
-  border-bottom: 2px solid #6abe45;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
@@ -194,10 +192,7 @@ p {
 /***************************************  NAVIGATION ***************************************/
 .navbar {
   z-index: 1;
-  padding: 15px 0;
   background-color: #ffffff;
-  -webkit-box-shadow: 4px 3px 6px 2px #e7eaea;
-          box-shadow: 4px 3px 6px 2px #e7eaea;
 }
 
 .navbar .navbar-logo {
@@ -313,18 +308,22 @@ p {
   width: 17px;
 }
 
-/************* SECTION CAROUSEL / SLIDER ******************/
-#banner {
-  width: 100%;
-  float: left;
-  height: auto;
-}
-
+/************* SECTION CAROUSEL  ******************/
 #banner .carousel-item {
-  height: 700px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#banner .carousel-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4133329c;
 }
 
 #banner .carousel-item .carousel-text {

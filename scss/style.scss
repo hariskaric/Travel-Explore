@@ -2,29 +2,6 @@
 ! Author       	: HtHc
 ! Version      	: 1.0
 */
-
-/*************** Tabela Stilizacije ***************
-=================================================
-#1. Typography
-#2. Pre Loader
-#3. General Design
-#4. Header Design
-#5. Banner Design
-#6. About Us
-#7. Services
-#8. Tours
-#9. Destinations
-#10. Gallery
-#11. Reviews
-#12. Hotels
-#13. Blog
-#14. Contact Us
-#15. Footer
-#16. Responsive Design
-
-=================================================
-*/
-
 $blackTextColor: #333;
 $grayTextColor: #999;
 $greenTextColor: #6abe45;
@@ -41,6 +18,9 @@ $navigationMobileBackground: #000;
 * {
   padding: 0;
   margin: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Poppins", sans-serif;

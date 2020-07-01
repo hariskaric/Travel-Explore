@@ -176,6 +176,8 @@ p {
 .navbar {
   z-index: 1;
   background-color: #ffffff;
+  -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.61);
+          box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.61);
 }
 
 .navbar .navbar-logo {

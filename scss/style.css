@@ -582,11 +582,6 @@ section {
   margin: 0 0 10px;
 }
 
-.tour__price small {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 .tour__location {
   width: 100%;
   float: left;

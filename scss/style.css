@@ -998,4 +998,311 @@ section {
   border: 1px solid #e2eded;
   border-color: #eaf1f1 #e4eded #dbe7e7 #e4eded;
 }
+
+/***************************************  RESPONSIVE DESIGN ***************************************/
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .banner-caption p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #banner .carousel-item {
+    height: 250px;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .tour-item .media,
+  .hotel-item .media {
+    display: block;
+  }
+  .tour-item .media .thumb,
+  .hotel-item .media .thumb {
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  #filter-list li {
+    width: 100%;
+    float: left;
+  }
+  .gallery-items li {
+    width: 100%;
+  }
+  .row .col-sm-6:nth-last-child(-n + 1) .service-item {
+    margin: 0;
+  }
+  .about-text ul li {
+    width: 100%;
+  }
+  .inner-page-banner {
+    height: 250px;
+    background-position: 30% center;
+  }
+  .inner-page-banner h1::before {
+    height: 2px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner-caption h1 {
+    font-size: 30px;
+  }
+  #banner .carousel-item {
+    height: 315px;
+  }
+  .gallery-items li {
+    width: 50%;
+  }
+  .row .col-sm-6:nth-last-child(-n + 2) .service-item {
+    margin: 0;
+  }
+  .inner-page-banner {
+    height: 300px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px !important;
+  }
+  .section-spacing {
+    padding: 80px 0;
+  }
+  .row .col-lg-12 .tour-item:nth-child(2) {
+    margin: 0;
+  }
+  #banner .carousel-item {
+    background-position: right center;
+  }
+  .hero-text {
+    max-width: 100%;
+    padding-right: 40px;
+    display: none;
+  }
+  .hotel-item {
+    margin: 30px 0;
+  }
+  .row .col-lg-12 .hotel-item:first-child {
+    margin: 0;
+  }
+  .section-title {
+    margin: 0 0 60px;
+  }
+  .testimonials-outer {
+    padding: 0;
+  }
+  .navbar {
+    padding: 15px 0;
+  }
+  .cover-img {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+  #reviews-carousel {
+    width: 100%;
+    float: left;
+    position: relative;
+    bottom: auto;
+  }
+  .footer-top {
+    padding: 50px 0;
+  }
+  .footer-widget h3 {
+    margin: 0 0 20px;
+  }
+  .footer-widget p,
+  .footer-top ul li {
+    font-size: 14px;
+  }
+  .footer-widget {
+    margin: 0 0 30px;
+  }
+  .row .col-md-3:nth-last-child(-n + 1) .footer-widget {
+    margin: 0;
+  }
+  .copyright p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 10px;
+  }
+  ul.social-icons.pull-right {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-info {
+    margin: 0 0 70px;
+  }
+  .news-block {
+    margin: 0 0 50px;
+  }
+  .sidebar {
+    margin: 50px 0 0;
+  }
+  .team {
+    margin: 0 0 50px;
+  }
+  .about-text {
+    margin: 0 0 50px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav .nav-item {
+    margin: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 8px 0;
+    display: inline-block;
+  }
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    left: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .row.tours .col-md-12:nth-last-child(-n + 1) .tour-item {
+    margin: 0 !important;
+  }
+  .row.hotels .col-md-12:nth-last-child(-n + 1) .hotel-item {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 768px;
+    max-width: 100%;
+  }
+  .navbar {
+    padding: 15px 15px;
+  }
+  .banner-caption h1 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .banner-caption p {
+    font-size: 15px;
+  }
+  #banner .carousel-item {
+    height: 500px;
+  }
+  .footer-top ul li,
+  .footer-widget p,
+  .copyright p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .copyright p {
+    line-height: 30px;
+  }
+  .footer-top ul li {
+    margin: 0 0 8px;
+  }
+  .footer-top .row .col-md-3:nth-child(3),
+  .footer-top .row .col-md-3:nth-child(4) {
+    padding-left: 0;
+  }
+  .features-info {
+    padding: 41px 10px 45px;
+  }
+  .inner-page-banner {
+    height: 320px;
+  }
+  .contact-info p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .row .col-sm-6:nth-last-child(-n + 2) .service-item {
+    margin: 0;
+  }
+  .row .col-lg-12 .tour-item:nth-child(2) {
+    margin: 0;
+  }
+  .hotel-item {
+    margin: 30px 0;
+  }
+  .row .col-lg-12 .hotel-item:first-child {
+    margin: 0;
+  }
+  .gallery-items li {
+    width: 50%;
+  }
+  .section-spacing {
+    padding: 80px 0;
+  }
+  #filter-list li {
+    min-width: 110px;
+  }
+  .row.tours .col-md-12:nth-last-child(-n + 1) .tour-item {
+    margin: 0 !important;
+  }
+  .about-text {
+    margin: 0 0 60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 32px;
+  }
+  .navbar .navbar-nav .nav-item {
+    margin-left: 25px;
+  }
+  #banner .carousel-item {
+    height: 550px;
+  }
+  .row .col-sm-6:nth-last-child(-n + 3) .service-item {
+    margin: 0;
+  }
+  .row .col-lg-12 .tour-item:nth-child(2) {
+    margin: 0;
+  }
+  .hotel-item {
+    margin: 30px 0;
+  }
+  .row .col-lg-12 .hotel-item:first-child {
+    margin: 0;
+  }
+  .footer-top ul li,
+  .footer-widget p,
+  .copyright p {
+    font-size: 15px;
+  }
+  .row.tours .col-md-12:nth-last-child(-n + 1) .tour-item {
+    margin: 0 !important;
+  }
+  .row.hotels .col-md-12:nth-last-child(-n + 1) .hotel-item {
+    margin: 0 !important;
+  }
+  .about-text {
+    margin: 0 0 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row .col-sm-6:nth-last-child(-n + 3) .service-item {
+    margin: 0;
+  }
+  .row .col-lg-12 .tour-item:last-child {
+    margin: 0;
+  }
+  .row .col-lg-12 .hotel-item:last-child {
+    margin: 0;
+  }
+  .row.tours .col-md-12:nth-last-child(-n + 2) .tour-item {
+    margin: 0 !important;
+  }
+  .row.hotels .col-md-12:nth-last-child(-n + 2) .hotel-item {
+    margin: 0 !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */

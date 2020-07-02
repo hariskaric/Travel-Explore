@@ -66,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -413,6 +413,7 @@ p {
 /************* SECTION OUR SERVICE ******************/
 section {
   position: relative;
+  background-color: #15202b;
 }
 
 .section-spacing {
@@ -513,7 +514,7 @@ section {
 .service-item [class^="flaticon-"]:before,
 .service-item [class*=" flaticon-"]:before {
   font-size: 36px;
-  color: #6abe45;
+  color: #15202b;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -908,7 +909,8 @@ section {
   float: left;
   height: auto;
   padding: 70px 0;
-  background: #0e0e11;
+  background: #15202b;
+  border-top: 2px solid #222f3c;
 }
 
 .footer-widget {

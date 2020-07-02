@@ -71,7 +71,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $blackTextColor;
+  color: $whiteTextColor;
   font-family: "Poppins", sans-serif;
 }
 h1 {
@@ -359,6 +359,7 @@ p {
 /************* SECTION OUR SERVICE ******************/
 section {
   position: relative;
+  background-color: $navigationBackground;
 }
 .section-spacing {
   padding: 110px 0;
@@ -443,7 +444,7 @@ section {
 .service-item [class^="flaticon-"]:before,
 .service-item [class*=" flaticon-"]:before {
   font-size: 36px;
-  color: $greenTextColor;
+  color: $navigationBackground;
   transition: all 0.3s ease-in-out;
 }
 .service-item:hover .icon::before {
@@ -786,7 +787,8 @@ section {
   float: left;
   height: auto;
   padding: 70px 0;
-  background: #0e0e11;
+  background: #15202b;
+  border-top: 2px solid #222f3c;
 }
 .footer-widget {
   width: 100%;

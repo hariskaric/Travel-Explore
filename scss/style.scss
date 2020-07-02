@@ -921,6 +921,12 @@ section {
   background-color: $navigationBackground;
   border: none;
   padding: 12px;
+  a {
+    padding: 0.8rem;
+  }
+  a:hover {
+    background-color: #0d1925;
+  }
 }
 /***************************************  DESTINATION BOSNIA  ***************************************/
 .inner-page-banner {

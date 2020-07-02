@@ -1077,6 +1077,14 @@ section {
   padding: 12px;
 }
 
+.dropdown-menu a {
+  padding: 0.8rem;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0d1925;
+}
+
 /***************************************  DESTINATION BOSNIA  ***************************************/
 .inner-page-banner {
   width: 100%;

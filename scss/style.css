@@ -206,7 +206,7 @@ p {
   display: inline-block;
   width: 40px;
   height: 3px;
-  background: #000;
+  background: #fff;
   position: relative;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
@@ -219,7 +219,7 @@ p {
   top: -11px;
   width: 100%;
   height: 3px;
-  background: #000;
+  background: #fff;
   border-radius: 4px;
   -webkit-transition: all 0.35s ease-out;
   transition: all 0.35s ease-out;
@@ -234,7 +234,7 @@ p {
   bottom: -11px;
   width: 100%;
   height: 3px;
-  background: #000;
+  background: #fff;
   border-radius: 4px;
   -webkit-transition: all 0.35s ease-out;
   transition: all 0.35s ease-out;
@@ -996,6 +996,7 @@ section {
   width: 250px;
   background-color: #15202b;
   border: none;
+  padding: 12px;
 }
 
 /***************************************  DESTINATION BOSNIA  ***************************************/

@@ -22,3 +22,17 @@ window.onload = function () {
   };
   window.requestAnimationFrame(updateLax);
 };
+// Preloader
+jQuery(window).on("load", function () {
+  preloader();
+});
+// Preloader Function
+function preloader() {
+  jQuery(".preloaderimg").fadeOut();
+  jQuery(".preloader")
+    .delay(200)
+    .fadeOut("slow")
+    .delay(200, function () {
+      jQuery(this).remove();
+    });
+}

@@ -365,7 +365,8 @@ p {
       margin: 0 5px;
       background-color: $primaryBackground;
       color: #fff;
-      border: 2px solid #000;
+      border: 1px solid $greenTextColor;
+      box-shadow: 4px 3px 6px 2px $blackBackground;
       &:last-child {
         background-color: $greenBackground;
       }

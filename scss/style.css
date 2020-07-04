@@ -364,6 +364,107 @@ p {
   width: 17px;
 }
 
+#topLoginBox {
+  width: 100%;
+  background-color: #15202b;
+  color: #fff;
+  font-size: 13px;
+  border-bottom: 2px solid #222f3c;
+}
+
+#topLoginBox #topLoginBoxInner {
+  padding: 10px 0 6px 0;
+}
+
+#topLoginBox #topLoginBoxInner img {
+  width: 24px;
+}
+
+#topLoginBox .social__info span {
+  margin-right: 25px;
+}
+
+#topLoginBox .login__info {
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+}
+
+#counter__info {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#counter__info h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+#counter__info span {
+  font-size: 2.4rem;
+  line-height: 1rem;
+}
+
+#counter__info #clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 570px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+#counter__info #clock div {
+  position: relative;
+  width: 200px;
+  padding: 30px;
+  margin: 0 5px;
+  background-color: #15202b;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+#counter__info #clock div:last-child {
+  background-color: #6abe45;
+}
+
+#counter__info #clock div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(214, 214, 214, 0.1);
+}
+
+#counter__info #clock div span {
+  display: block;
+  text-align: center;
+}
+
+#counter__info #clock div span:nth-child(1) {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+#counter__info #clock div span:nth-child(2) {
+  margin-top: 1.5rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /************* SECTION CAROUSEL  ******************/
 #banner .carousel-item {
   height: 100vh;
@@ -1051,8 +1152,8 @@ section {
 }
 
 .back-top a {
-  width: 40px;
-  line-height: 40px;
+  width: 54px;
+  line-height: 52px;
   background-color: #6abe45;
   color: #fff;
   display: inline-block;
@@ -1231,6 +1332,12 @@ section {
   }
   .yournex__text {
     font-size: 23px;
+  }
+  #topLoginBox {
+    display: none;
+  }
+  #counter__info {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

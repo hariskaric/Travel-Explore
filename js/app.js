@@ -36,3 +36,16 @@ function preloader() {
       jQuery(this).remove();
     });
 }
+// COUNTDOWN
+$("#counter__info").countdown("2020/07/25", function (event) {
+  $(this).html(
+    event.strftime(`
+  <h3>Website Cooming Soon</h3>
+  <div id='clock'>
+  <div><span>%w</span><span>Weeks</span></div>
+  <div><span>%d</span><span>Days</span></div>
+  <div><span>%H</span><span>Hr</span></div>
+  <div><span>%M</span><span>Min</span></div>
+  <div><span>%S</span><span>Sec</span></div></div>`)
+  );
+});

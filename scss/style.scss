@@ -7,6 +7,7 @@ $grayTextColor: #999;
 $greenTextColor: #6abe45;
 $whiteTextColor: #fff;
 
+$primaryBackground: rgb(21, 32, 43);
 $whiteBackground: #fff;
 $blackBackground: #000;
 $greenBackground: #6abe45;
@@ -311,6 +312,87 @@ p {
 .nav-link-ico {
   margin-bottom: 0.5rem;
   width: 17px;
+}
+#topLoginBox {
+  width: 100%;
+  background-color: $navigationBackground;
+  color: $whiteTextColor;
+  font-size: 13px;
+  border-bottom: 2px solid #222f3c;
+  #topLoginBoxInner {
+    padding: 10px 0 6px 0;
+    img {
+      width: 24px;
+    }
+  }
+  .social__info {
+    span {
+      margin-right: 25px;
+    }
+  }
+  .login__info {
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+  }
+}
+#counter__info {
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  width: 100%;
+  transform: translateY(-50%);
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  span {
+    font-size: 2.4rem;
+    line-height: 1rem;
+  }
+  #clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 570px;
+    margin: 0 auto;
+    opacity: 0.7;
+    div {
+      position: relative;
+      width: 200px;
+      padding: 30px;
+      margin: 0 5px;
+      background-color: $primaryBackground;
+      color: #fff;
+      border: 2px solid #000;
+      &:last-child {
+        background-color: $greenBackground;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: rgba(214, 214, 214, 0.1);
+      }
+      span {
+        display: block;
+        text-align: center;
+        &:nth-child(1) {
+          font-size: 48px;
+          font-weight: 800;
+        }
+        &:nth-child(2) {
+          margin-top: 1.5rem;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
 }
 /************* SECTION CAROUSEL  ******************/
 #banner {
@@ -899,8 +981,8 @@ section {
   right: 15px;
   z-index: 9;
   a {
-    width: 40px;
-    line-height: 40px;
+    width: 54px;
+    line-height: 52px;
     background-color: $greenBackground;
     color: $whiteTextColor;
     display: inline-block;
@@ -1025,6 +1107,7 @@ section {
     color: $grayTextColor;
   }
 }
+
 /***************************************  RESPONSIVE DESIGN ***************************************/
 @media (max-width: 575.98px) {
   h1 {
@@ -1042,5 +1125,11 @@ section {
   }
   .yournex__text {
     font-size: 23px;
+  }
+  #topLoginBox {
+    display: none;
+  }
+  #counter__info {
+    display: none;
   }
 }

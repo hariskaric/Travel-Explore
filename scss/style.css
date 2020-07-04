@@ -403,6 +403,7 @@ p {
   font-size: 2.5rem;
   font-weight: 800;
   text-align: center;
+  letter-spacing: 0.6rem;
 }
 
 #counter__info span {
@@ -422,7 +423,7 @@ p {
           align-items: center;
   width: 570px;
   margin: 0 auto;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 #counter__info #clock div {
@@ -1178,6 +1179,7 @@ section {
   background-color: #15202b;
   border: none;
   padding: 12px;
+  opacity: 0.8;
 }
 
 .dropdown-menu a {
